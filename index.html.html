@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politique de Confidentialité — Nostaria-BOT</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            discord: {
+              bg: '#36393f',
+              dark: '#2f3136',
+              darker: '#202225',
+              blurple: '#5865F2',
+              hover: '#4752C4',
+              text: '#dcddde',
+              muted: '#96989d',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-discord-bg text-discord-text font-sans antialiased min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-discord-darker border-b border-gray-700/50 sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-full bg-discord-blurple flex items-center justify-center font-bold text-white text-lg shadow-lg">
+          N
+        </div>
+        <div>
+          <h1 class="text-lg font-bold text-white tracking-wide">Nostaria-BOT</h1>
+          <p class="text-xs text-discord-muted">Politique de Confidentialité</p>
+        </div>
+      </div>
+      <span class="text-xs bg-discord-dark px-3 py-1.5 rounded-full border border-gray-700 text-discord-muted">
+        v1.0 (Préparatoire)
+      </span>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1 max-w-4xl w-full mx-auto px-4 py-8">
+    
+    <!-- Title Card -->
+    <div class="bg-discord-dark rounded-xl p-6 md:p-8 mb-8 border border-gray-700/50 shadow-xl">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-gray-700/60 pb-6 mb-6">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-extrabold text-white">Politique de Confidentialité</h2>
+          <p class="text-sm text-discord-muted mt-1">Nostaria-BOT — Bot Discord d'administration et de gestion</p>
+        </div>
+        <div class="inline-flex items-center gap-2 bg-discord-darker px-3 py-1.5 rounded-md border border-gray-700 text-xs text-discord-muted">
+          <span>Dernière mise à jour :</span>
+          <span class="text-white font-medium">1er novembre 2026</span>
+        </div>
+      </div>
+
+      <!-- Warning Box -->
+      <div class="bg-amber-950/40 border border-amber-500/40 rounded-lg p-4 md:p-5 text-amber-200 text-sm leading-relaxed">
+        <div class="flex items-center gap-2 font-semibold text-amber-400 mb-2">
+          <span>⚠️</span> Document préparatoire
+        </div>
+        <p>
+          Cette politique décrit les traitements envisagés. Elle devra être vérifiée et complétée avant la mise en service officielle du bot, notamment concernant l'hébergement, le stockage, les durées de conservation et les modalités effectives de suppression des données.
+        </p>
+      </div>
+    </div>
+
+    <!-- Sections Container -->
+    <div class="space-y-6">
+
+      <!-- Section 1 -->
+      <section class="bg-discord-dark rounded-xl p-6 border border-gray-700/50 shadow-md">
+        <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+          <span class="text-discord-blurple">1.</span> Présentation
+        </h3>
+        <p class="text-discord-text leading-relaxed mb-4">
+          Nostaria-BOT est un bot Discord développé et administré par l'équipe d'administration.
+        </p>
+        <p class="text-discord-text leading-relaxed mb-2">
+          Il est destiné à faciliter la gestion des serveurs Discord grâce à différentes fonctionnalités, notamment :
+        </p>
+        <ul class="list-disc list-inside space-y-1 text-discord-muted pl-2">
+          <li>L'attribution automatique de rôles ;</li>
+          <li>L'envoi de messages de bienvenue ;</li>
+          <li>La gestion des tickets entre membres et membres du staff ;</li>
+          <li>Certaines fonctionnalités d'administration et de modération.</li>
+        </ul>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="bg-discord-dark rounded-xl p-6 border border-gray-700/50 shadow-md">
+        <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+          <span class="text-discord-blurple">2.</span> Données susceptibles d'être traitées
+        </h3>
+        <p class="text-discord-text leading-relaxed mb-3">
+          Dans le cadre de son fonctionnement, Nostaria-BOT pourra traiter les données suivantes :
+        </p>
+        <ul class="list-disc list-inside space-y-1 text-discord-muted pl-2 mb-4">
+          <li>Les identifiants Discord des membres et des serveurs ;</li>
+          <li>Les informations nécessaires à l'attribution et à la gestion des rôles ;</li>
+          <li>Les messages échangés dans les tickets ;</li>
+          <li>Les paramètres et configurations nécessaires au fonctionnement du bot sur chaque serveur.</li>
+        </ul>
+        <div class="bg-discord-darker p-3.5 rounded-lg border border-gray-700/50 text-xs text-discord-muted">
+          ℹ️ Le bot n'a pas vocation à collecter des données sans rapport avec ses fonctionnalités.
+        </div>
+      </section>
+
+      <!-- Section 3 -->
+      <section class="bg-discord-dark rounded-xl p-6 border border-gray-700/50 shadow-md">
+        <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+          <span class="text-discord-blurple">3.</span> Utilisation des données
+        </h3>
+        <p class="text-discord-text leading-relaxed mb-3">
+          Ces données pourront être utilisées uniquement pour :
+        </p>
+        <ul class="list-disc list-inside space-y-1 text-discord-muted pl-2">
+          <li>Faire fonctionner les fonctionnalités du bot ;</li>
+          <li>Gérer les rôles et les messages de bienvenue ;</li>
+          <li>Permettre la création et le suivi des tickets ;</li>
+          <li>Assurer la gestion et la sécurité des serveurs ;</li>
+          <li>Conserver les paramètres nécessaires après un redémarrage du bot.</li>
+        </ul>
+      </section>
+
+      <!-- Section 4 -->
+      <section class="bg-discord-dark rounded-xl p-6 border border-gray-700/50 shadow-md">
+        <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+          <span class="text-discord-blurple">4.</span> Conservation des données
+        </h3>
+        <p class="text-discord-text leading-relaxed mb-3">
+          Certaines informations, notamment les configurations des serveurs et les tickets, pourront être conservées afin de permettre au bot de fonctionner correctement après un redémarrage.
+        </p>
+        <p class="text-discord-muted text-sm italic border-l-2 border-discord-blurple pl-3 py-1">
+          Les durées exactes de conservation seront précisées lorsque le système de stockage définitif du bot sera mis en place.
+        </p>
+      </section>
+
+      <!-- Section 5 -->
+      <section class="bg-discord-dark rounded-xl p-6 border border-gray-700/50 shadow-md">
+        <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+          <span class="text-discord-blurple">5.</span> Partage des données
+        </h3>
+        <p class="text-discord-text leading-relaxed mb-3">
+          Les données ne seront <strong class="text-white">pas vendues</strong>.
+        </p>
+        <p class="text-discord-muted text-sm leading-relaxed">
+          Elles ne seront pas partagées volontairement avec des tiers, sauf si cela est nécessaire au fonctionnement technique du bot ou imposé par une obligation légale. Les services techniques utilisés pour héberger le bot ou stocker ses données pourront être précisés lorsque l'hébergement aura été choisi.
+        </p>
+      </section>
+
+      <!-- Section 6 -->
+      <section class="bg-discord-dark rounded-xl p-6 border border-gray-700/50 shadow-md">
+        <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+          <span class="text-discord-blurple">6.</span> Sécurité
+        </h3>
+        <p class="text-discord-text leading-relaxed">
+          L'équipe d'administration mettra en œuvre des mesures raisonnables afin de protéger les données traitées par Nostaria-BOT contre les accès non autorisés, la perte ou la divulgation.
+        </p>
+      </section>
+
+      <!-- Section 7 -->
+      <section class="bg-discord-dark rounded-xl p-6 border border-gray-700/50 shadow-md">
+        <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+          <span class="text-discord-blurple">7.</span> Droits des utilisateurs
+        </h3>
+        <p class="text-discord-text leading-relaxed mb-4">
+          Pour toute question concernant les données personnelles, ou pour demander l'accès, la rectification ou la suppression de données éventuellement conservées par le bot, les utilisateurs pourront contacter l'équipe d'administration directement via Discord.
+        </p>
+        <div class="bg-red-950/30 border border-red-500/30 rounded-lg p-3.5 text-xs text-red-200">
+          ⚠️ <strong>Recommandation :</strong> Il est recommandé de ne pas publier d'informations personnelles sensibles dans un ticket ou un salon public.
+        </div>
+      </section>
+
+      <!-- Section 8 -->
+      <section class="bg-discord-dark rounded-xl p-6 border border-gray-700/50 shadow-md">
+        <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+          <span class="text-discord-blurple">8.</span> Modifications
+        </h3>
+        <p class="text-discord-text leading-relaxed">
+          Cette politique pourra être mise à jour afin de refléter les évolutions de Nostaria-BOT, de ses fonctionnalités ou de son fonctionnement technique.
+        </p>
+      </section>
+
+      <!-- Section 9 -->
+      <section class="bg-discord-dark rounded-xl p-6 border border-gray-700/50 shadow-md">
+        <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+          <span class="text-discord-blurple">9.</span> Contact
+        </h3>
+        <p class="text-discord-text leading-relaxed">
+          Pour toute question concernant cette politique de confidentialité, vous pouvez contacter l'équipe d'administration directement via Discord.
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-discord-darker border-t border-gray-700/50 mt-12 py-6 text-center text-xs text-discord-muted">
+    <div class="max-w-4xl mx-auto px-4">
+      <p>© 2026 Nostaria-BOT. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
